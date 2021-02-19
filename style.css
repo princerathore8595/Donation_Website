@@ -1,0 +1,98 @@
+.container li
+{
+    float: left;
+    list-style: none;
+    margin:23px;
+    margin-top: -8px;
+    font-size:20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:azure;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+#smallTagline
+{
+    color:rgb(252, 251, 249);
+    margin-left: 30px;
+    font-family: 'Sansita Swashed', cursive;
+}
+.navbar
+{
+    color:white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.navbar:hover
+{
+  background-color: rgb(252, 252, 250);
+  border-radius: 6px;
+  color:rgb(116, 90, 8);
+}
+.container
+{
+    background-color: transparent;
+    overflow: auto;
+    border:2px solid rgb(12, 11, 11);
+    border-radius: 5px;
+    height: 45px;
+}
+body
+{
+    background-image: url('/children-60654_1280.jpg')
+}
+.btn
+{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: rgb(241 147 22);
+    padding: 4px;
+    border-radius:4px;
+    border:2px solid rgb(247, 246, 244);
+    color: rgb(252, 251, 248);
+    margin-left:40px;
+    line-height: 5.9em;
+    font-family: 'Reggae One', cursive;
+    font-weight: bold;
+}
+.para
+{
+    font-size: 23px;
+}
+.btn 
+{
+    animation: animate  
+    1.5s linear infinite;
+}
+@keyframes animate { 
+    0% { 
+        opacity: 0.1; 
+    } 
+
+    50% { 
+        opacity: 1.5; 
+    } 
+
+    100% { 
+        opacity: 2.0; 
+    } 
+}
+#headline
+{
+    float:right;
+    font-size: 23px;
+    margin-right: 68px;
+    color:white;
+}
+#main
+{
+    font-weight: bold;
+}
+.tagline
+{
+    margin-left:0px;
+    margin-top: 100px;
+    font-size: 18px;
+    font-family: 'Cinzel', serif;
+    color:rgb(245, 245, 119);
+}
